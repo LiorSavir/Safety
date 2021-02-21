@@ -61,3 +61,52 @@ th {
     background-color: rgba(255, 255, 255, 0.2);
     z-index: -1;
   } */
+
+  button {
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+
+  #delete {
+    background-color:  rgb(226, 45, 45);
+  }
+
+  #edit {
+    background-color: rgb(228, 228, 64);
+  }
+
+  .tene img {
+    /* position: relative;
+    display: block;
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px; */
+    position:absolute;
+    height: 100px;
+    width: auto;
+    right:40px;
+    top:30px;
+  }
+  
+  
+  .kidma img{
+    /* position: relative;
+    height: 100px;
+    display: block;
+    width: auto;
+    float: right;
+    top: 10%;
+    margin-top: 10px;
+    margin-right: 20px; */
+    position:absolute;
+    height: 100px;
+    width: auto;
+    left:40px;
+    top:30px;  
+  }

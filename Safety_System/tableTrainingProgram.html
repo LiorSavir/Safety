@@ -6,6 +6,20 @@
     <link rel="stylesheet" type="text/css" href="resources/css/tables.css">
     <title>תוכנית הדרכות</title>
 </head>
+<header>
+    <div class="row">
+        <div class="tene">
+            <a href="index.html">
+                <img src="resources/img/tene.png" alt="">
+            </a>
+        </div>
+        <div class="kidma">
+            <a href="index.html">
+                <img src="resources/img/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+</header>
 <body>
     <div class="container">
         <table dir="rtl">
@@ -17,6 +31,7 @@
                     <th>האם ההדרכה דורשת מבחן</th>
                     <th>רשימת עובדים הנדרשים להיות בהדרכה</th>
                     <th>סטטוס הדרכה</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +42,12 @@
                     <td>כן</td>
                     <td>תמונה</td>
                     <td>בוצע</td>
+                    <td style="width: 80px; height: 50px;">
+                        <div class="container">
+                            <button id="edit">עריכה</button>
+                            <button id="delete">מחיקה</button>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <td>Cell 7</td>
@@ -35,6 +56,12 @@
                     <td>Cell 4</td>
                     <td>Cell 3</td>
                     <td>Cell 2</td>
+                    <td style="width: 80px; height: 50px;">
+                        <div class="container">
+                            <button id="edit">עריכה</button>
+                            <button id="delete">מחיקה</button>
+                        </div>
+                    </td>
                 </tr>
             </tbody>
         </table>

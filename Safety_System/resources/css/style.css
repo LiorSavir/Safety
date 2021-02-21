@@ -144,6 +144,38 @@ header {
   right: 16px;
 }
 
+.tene img {
+  /* position: relative;
+  display: block;
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px; */
+  position:absolute;
+  height: 100px;
+  width: auto;
+  right:40px;
+  top:30px;
+}
+
+
+.kidma img{
+  /* position: relative;
+  height: 100px;
+  display: block;
+  width: auto;
+  float: right;
+  top: 10%;
+  margin-top: 10px;
+  margin-right: 20px; */
+  position:absolute;
+  height: 100px;
+  width: auto;
+  left:40px;
+  top:30px;  
+}
+
 /* Centered text */
 .centered {
   position: absolute;
@@ -152,6 +184,9 @@ header {
   transform: translate(-50%, -50%);
   /* color: #f00; */
   color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-weight: 700;
+  font-style: bold;
 }
 
 /* ----- PARAGRAPHS ----- */
