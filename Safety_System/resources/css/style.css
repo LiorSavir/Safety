@@ -96,8 +96,9 @@ header {
   left: 0;
   top: 0;
   width: 100%;
-  color: white;
+  /* color: white; */
   text-align: center;
+  background-image:url("resources/img/backgound.jpg");
 }
 
 .footer {
@@ -105,11 +106,15 @@ header {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  /* color: white; */
   text-align: center;
 }
 
 /* Container holding the image and the text */
+.container img {
+  width: 100%;
+}
+
 .container {
   position: relative;
   text-align: center;
@@ -304,12 +309,14 @@ input[type="submit"]:active {
 .tables-showcase {
   list-style: none;
   width: 100%;
+  /* border: 1px solid black; */
 }
 
 .tables-showcase li {
   display: block;
   float: left;
   width: 20%;
+  border: 2px solid black;
 }
 
 .table-photo {
@@ -321,7 +328,7 @@ input[type="submit"]:active {
 
 .table-photo img {
   opacity: 0.7;
-  height: 230px;
+  height: 22vh;
   width: 100%;
   /*height: auto;*/
   -webkit-transform: scale(1.15);
